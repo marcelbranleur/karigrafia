@@ -16,28 +16,28 @@ body {
 }
 
 .img-author {
-    width: 25rem;
-    height: 25rem;
+    width: 20rem;
+    height: 20rem;
     border-radius: 50%;
     border: 7px solid black;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
     
 }
 
 .primary-heading {
-    font-size: 5rem;
+    font-size: 3rem;
     text-transform: uppercase;
     font-family: 'Bree Serif', serif;
     letter-spacing: 0.3rem;
-    margin-bottom: 2rem;
+    // margin: 2rem;
 }
 
 .btn-lang {
-    width: 12rem;
+    width: 10rem;
     color: #485455;
     border: 4px solid currentColor;
     border-radius: 0;
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 1rem;
     margin: 2rem;
     text-transform: uppercase;
