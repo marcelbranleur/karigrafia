@@ -1,0 +1,123 @@
+
+///////////////// HEADER /////////////////////
+/////////////////////////////////////////////
+.header {
+    // opacity: 0.8;
+    // filter: alpha(opacity=40); /* msie */
+    // background-color: #000;
+
+    img {
+        margin-top: 4rem;
+        border: 5px solid #3f4a4b;
+        filter: grayscale(30%);
+    }
+}
+
+///////////////// NAV //////////////////////
+///////////////////////////////////////////
+.nav-row {
+    width: 100%;
+    justify-content: center;
+
+    .navbar  {
+        background-color: #D0CDCC;
+        // background-color: rgb(224, 224, 224);
+        border: 4px solid #485455;
+        padding: 2rem 8rem;
+        margin-top: -1.5rem;
+         
+        .nav-link {
+            color: #485455;
+            text-transform: uppercase;
+
+            &:hover {
+                color: #7D0636;
+            }
+        }
+    }
+}
+
+///////////////// CONTENT //////////////////
+///////////////////////////////////////////
+
+.main-box {
+    margin: 3rem 0;
+    padding: 5rem 5rem;
+    border: 4px solid #485455;
+    background-color: #D0CDCC;
+
+    h1 {
+        font-family: 'Roboto', sans-serif; //change that
+    }
+
+    p {
+        font-family: 'Bree Serif', serif; // change that as well
+    }
+}
+
+///////////////// SECTIONS /////////////////////
+///////////////////////////////////////////
+
+.section-author {
+    margin: 2rem 0;
+    
+
+    .author-info {
+        display: flex;
+        justify-content: center;
+        align-items : center;
+    }
+
+    p {
+        line-height: 2;
+    }
+
+    
+
+   
+
+    p:first-child:first-letter {
+        float: left;
+        font-size: 95px;
+        line-height: 70px;
+        padding-right: 8px;
+        padding-left: 3px;
+    }
+
+    span {
+        font-weight: bolder;
+    }
+}
+
+.section-time {
+    margin: 2rem 0;
+}
+
+///////////////// FOOTER ///////////////////
+///////////////////////////////////////////
+
+.footer {
+    border: 4px solid #485455;
+    margin-bottom: 2rem;
+    background-color: #D0CDCC;
+    padding: 1rem 2rem;
+    text-align: center;
+
+    ul {
+        list-style: none;
+
+        li {
+            display: inline-block;
+            margin: 0 1rem;
+
+            a {
+               color: #485455;
+               text-decoration: none;
+            }
+
+            a:hover {
+                color: #7D0636;
+            }
+        }
+    }
+}
