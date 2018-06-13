@@ -9,7 +9,7 @@
     img {
         margin-top: 4rem;
         border: 5px solid #3f4a4b;
-        filter: grayscale(30%);
+       
     }
 }
 
@@ -70,22 +70,26 @@
 
     p {
         line-height: 2;
+        font-family: 'Roboto', sans-serif;
     }
 
-    
-
-   
 
     p:first-child:first-letter {
         float: left;
         font-size: 95px;
-        line-height: 70px;
+        line-height: 60px;
         padding-right: 8px;
         padding-left: 3px;
     }
 
     span {
         font-weight: bolder;
+    }
+
+    .photo-author {
+        line-height: 1.7;
+        font-family: 'Roboto', sans-serif;
+        font-size: 0.8rem;
     }
 }
 
