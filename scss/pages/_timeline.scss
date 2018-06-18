@@ -113,6 +113,16 @@
         padding: 0 15px;
         color: #7D0636;
         margin: 10px 0;
+
+        @media (min-width: 320px) {
+            font-size: 1.1rem;
+        }
+        @media (min-width: 576px) {
+            font-size: 1.4rem;
+        }
+        @media (min-width: 992px) {
+            font-size: 1.5rem;
+        }
     }
     .timeline-body > p, .timeline-body > ul {
         padding: 10px 15px;
